@@ -75,3 +75,41 @@
 - Discard message
   
 ### 7. Store Messages in JSON File
+
+
+##Features
+
+# MessageTest
+### 1. Generate Message ID
+- Automatically generates a unique 10-digit message ID for every message.
+
+### 2. Validate Message ID
+- The application checks whether the generated ID contains exactly 10 numeric digits.
+
+### 3. Validate Recipient Cell Number
+- The system validates South African cellphone numbers.
+-Correct Format
++27718693002
+-Invalid Format
+08575975889
+
+### 4. Validate Message Length
+- Maximum message length: 250 characters
+- Displays an error if the message exceeds the limit.
+
+### 5. Create Message Hash
+- The application generates a message hash using:
+- First 2 digits of the Message ID
+- Message number
+- First and last word of the message
+
+  ### 6. Send Message Options
+- The user can:
+1. Send a message
+2. Discard a message
+3. Store a message
+
+### 7. Store Messages
+   
+  
+  
