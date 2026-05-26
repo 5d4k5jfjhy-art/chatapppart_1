@@ -1,0 +1,15 @@
+[
+  {
+    "MessageID": "1234567890",
+    "MessageHash": "12:1:HITONIGHT",
+    "Recipient": "+27718693002",
+    "Message": "Hi Mike, can you join us for dinner tonight?"
+  },
+  {
+    "MessageID": "9876543210",
+    "MessageHash": "98:2:HIDID",
+    "Recipient": "+27831234567",
+    "Message": "Hi Keegan, did you receive the payment?"
+  }
+]
+   
