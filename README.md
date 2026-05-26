@@ -43,6 +43,35 @@
 - Prints "Logging out"
 
 
+##Features
 
+# Message
+## Features
 
+### 1. Generate Message ID
+- Automatically creates a unique 10-digit message ID.
+
+### 2. Validate Message ID
+- Ensures the generated ID contains exactly 10 digits.
+
+### 3. Validate Recipient Number
+- Accepts South African cellphone numbers.
+- Format required:
+- 
+### 4. Validate Message Length
+- Maximum message length is 250 characters.
+- Displays how many characters exceed the limit.
+
+### 5. Generate Message Hash
+- Creates a unique hash using:
+- First 2 digits of message ID
+-Message number
+- First and last word of the message
+
+### 6. Send, Store, or Discard Messages
+- Options available:
+- Send message
+- Store message
+- Discard message
   
+### 7. Store Messages in JSON File
