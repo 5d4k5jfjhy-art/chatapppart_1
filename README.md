@@ -2,6 +2,7 @@
 
 ##Features
 
+# MainApp
 ### 1. User Registration
 - Asks the user to enter their **first name** and **last name**
 - **Username validation** via 'login.checkUserName(username)':
@@ -33,5 +34,15 @@
 - Enter the **message body**
 - Messsage is stored as " To <recipient>, <message> in an arayList<String>
 
-- 
+#### View sent Messages (Option 2)
+- Displayes all the previously sent messages from the session
+- If no messages have been sent, displays "No messages sent yet"
+
+#### Quit (Option 3)
+- Sets 'running = false', exits the chat loop
+- Prints "Logging out"
+
+
+
+
   
