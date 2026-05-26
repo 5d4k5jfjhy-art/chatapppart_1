@@ -14,3 +14,24 @@
 - must contain an international dialing code (+27)
 - once all inputs are all valid, the user is registered via 'login.registerUser()'
   
+### 2. User Login
+- Asks for userame and password 
+- Authenticates via 'login.loginUser(loginUsername, loginPassword)'
+- Login status is displayed via 'login.returnLogiunStatus(loggedIn)'
+
+  ## 3. Chat Menu (shown after successfully logging in)
+  Upon login, users are welcomed to **CHATAPP** and presented with a menu
+  Options
+  1. Send Messages
+  2. Show recently sent messages
+  3. Quit
+
+#### Sending Messages (Option 1)
+- User specifies how many messages to send
+- For each message:
+- Enter a **recipient number**
+- Enter the **message body**
+- Messsage is stored as " To <recipient>, <message> in an arayList<String>
+
+- 
+  
